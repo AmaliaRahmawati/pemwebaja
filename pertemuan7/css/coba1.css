@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+.img {
+    width: 150px;
+    margin: 5px;
+}
+body{
+    background-color: rgb(247, 147, 215);
+}

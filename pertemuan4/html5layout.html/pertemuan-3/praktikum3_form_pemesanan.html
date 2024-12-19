@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <h1>Form Pemesanan Barang</h1>
+    <legend>
+    <form action="praktikum3_thankyouform.html">
+        <h4>Isi Formulir di Bawah</h4>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="border: 2px solid black; padding: 80px; margin-left: 50px; height: 10px; width: 10px;">
+                <input type="file" name="Upload Picture">
+                
+             
+        </div>
+        <div style="margin-right: 600px;">
+            <label for="nama">Title Here : </label>
+            <input type="text"><br>
+
+            <label for="description">Description : </label>
+            <textarea name="description" id="description"></textarea><br>
+    
+            <label for="account number">account number : </label>
+            <input type="number" id="account number"><br>
+
+            <label for="Bank">Bank :</label>
+            <input type="text" list="bankoption" name="bank"><br>
+            <datalist id="bankoption">
+                <option value="bank BNI">
+                <option value="bank BRI">
+                <option value="bank Jago">
+            </datalist>
+
+            <label for="account holder">Account Holder : </label>
+            <input type="text" placeholder="Name Here"><br>
+
+            <label for="transaction">Transaction : </label>
+            <input type="number" id="transaction"><br>
+                <h6>* if the transaction is for 3 person, choose 3 from the drop-down list</h6>
+                <h6> <input type="checkbox" name="send">Send to Mobile Phone<br>
+                    <input type="checkbox" name="send">Send to Email<br>
+                </h6>
+
+            <label for="phone">Send to Mobile Phone : </label>
+            <input type="number" id="phone"><br>
+ 
+            <label for="email">Send to Email : </label>
+            <input type="email" id="email"><br>
+
+            <input type="submit" value="Submit">
+        </div>>
+
+    </form>
+    </legend>
+</body>
+</html>
