@@ -1,0 +1,137 @@
+body{
+    background-color: white;
+    max-width: fit-content;
+}
+
+ul{
+    text-align: left;
+}
+
+th{
+    text-align: center;
+}
+
+.neon-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-shadow: 0 0 10px #a24c1e, 0 0 20px #65461e, 0 0 30px #dac333, 0 0 40px #f6621e, 0 0 50px #1df533, 0 0 60px #d19922, 0 0 70px #ea8d53;
+}
+
+#desc{
+    margin-top: 5em;
+}
+
+p{
+    margin-top: 3em;
+}
+
+.container, table, nav, .home{
+    margin-top: 50px;
+}
+
+.navigation{
+    margin-left: 50px;
+}
+ .card-title, .card-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .card-text{
+    margin-left: 10px ;
+    margin-right: 10px;
+    text-align: left;
+ }
+
+ .btn{
+    margin-bottom: 10px;
+ }
+
+address{
+   
+    margin-left: 20px;
+    
+}
+
+.bottom{
+    margin-top: 1em;
+    padding-right: 70px;
+    max-width: fit-content;
+    font-size: small;
+    
+  
+}
+
+#footer{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.profile{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* form */
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.cont header{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cont .form{
+    margin-top: 30px;
+}
+
+.form .form-group{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-group label{
+    color: #333;
+}
+
+.form :where(.form-group input, .select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+
+.form-group input:focus{
+    box-shadow: 0 1px 0 black;
+}
+
+.form .radio{
+
+    font-size: 15px;
+
+}
+
